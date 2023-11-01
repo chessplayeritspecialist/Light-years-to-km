@@ -1,0 +1,24 @@
+﻿<Window x:Class="Light_years_to_km.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Light_years_to_km"
+        mc:Ignorable="d"
+        Title="Калькулятор" Height="400" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Icon="/test_5.ico"   
+        >
+    <Window.Background>
+        <ImageBrush ImageSource="/space.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Canvas>
+            <TextBox x:Name="text_a" InputScope="Number" Canvas.Top="90" Canvas.Left="150" Width="250" Height="30" Opacity="0.4" FontSize="20px" BorderBrush="Black" BorderThickness="2" TextChanged="TextBox_TextChanged"/>
+            <TextBox x:Name="text_b" Canvas.Top="160" Canvas.Left="150" Width="250" Height="30" Opacity="0.4" FontSize="20px" BorderBrush="Black" BorderThickness="2" IsReadOnly="True"/>
+            <Image Source="/img/test.png" x:Name="clear" Height="87" Canvas.Top="287.54" Width="86" Canvas.Left="-11" HorizontalAlignment="Center" VerticalAlignment="Top" MouseEnter="Nav" MouseLeave="Dav" Cursor="Hand" MouseDown="Clear" />
+            <Label Content="О программе" Foreground="White" Canvas.Top="330" Width="86" Canvas.Left="400" MouseDown="info_click" Cursor="Hand"/>
+            <Label Content="св.год" Foreground="White" Canvas.Top="84" Width="86" Canvas.Left="400" FontSize="20px"/>
+            <Label Content="км" Foreground="White" Canvas.Top="155" Width="86" Canvas.Left="400" FontSize="20px"/>
+            
+        </Canvas>
+    </Grid>
+</Window>

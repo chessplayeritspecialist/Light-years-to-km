@@ -1,0 +1,24 @@
+﻿<Window x:Class="Light_years_to_km.Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Light_years_to_km"
+        mc:Ignorable="d"
+        Title="О программе" Height="420" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="Black" Icon="/test_5.ico">
+    <Grid>
+        <StackPanel>
+            <Label Background="Black" Height="40px"/>
+            <Label Background="White" Height="34" Content="ИНФОРМАЦИЯ" HorizontalContentAlignment="Center" FontSize="20"/>
+            <Label Content="Разработчик: Ганцевич А.А (Шахматист - IT Специалист)" Foreground="White" FontSize="15px"/>
+            <Label Content="Страна: Россия" Foreground="White" FontSize="15px"/>
+            <Label Content="Цель программы: Перевести световые годы в км." Foreground="White" FontSize="15px"/>
+            <Label Content="Версия: 1.0" Foreground="White" FontSize="15px"/>
+            <Label Background="White" Height="34" Content="ЛИЦЕНЗИЯ" HorizontalContentAlignment="Center" FontSize="20"/>
+
+            
+                <WebBrowser x:Name="webBrowser" Source="https://www.gnu.org/licenses/gpl-3.0.txt" />
+            
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light_years_to_km", "Light_years_to_km.csproj", "{974EEE13-EAFE-418C-9EA3-314015F263BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974EEE13-EAFE-418C-9EA3-314015F263BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974EEE13-EAFE-418C-9EA3-314015F263BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974EEE13-EAFE-418C-9EA3-314015F263BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974EEE13-EAFE-418C-9EA3-314015F263BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B55C23EA-97DE-4AE7-BA2A-327ECFCE84C0}
+	EndGlobalSection
+EndGlobal
